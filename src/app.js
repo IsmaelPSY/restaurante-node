@@ -62,7 +62,7 @@ app.get('/email', (req, res)=>{
     transporter.transporter.sendMail({
         subject: 'Este es mi Hola mundo',
         text: "Hello world",
-        to: "alejandroalivier20@gmail.com",
+        to: "ismaelpsy.12@gmail.com",
         from: "testacademlo@gmail.com"
     })
     res.status(200).json({
